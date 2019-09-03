@@ -39,8 +39,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersDemoTestHelpers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationInsightsInitializers", "src\ApplicationInsightsInitializers\ApplicationInsightsInitializers.csproj", "{7D6A5E69-187A-4FAA-997C-D6C1FA41FE32}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{90CAF717-85F9-4E94-B432-BC25F0D68DC9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,10 +73,6 @@ Global
 		{7D6A5E69-187A-4FAA-997C-D6C1FA41FE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D6A5E69-187A-4FAA-997C-D6C1FA41FE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D6A5E69-187A-4FAA-997C-D6C1FA41FE32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90CAF717-85F9-4E94-B432-BC25F0D68DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90CAF717-85F9-4E94-B432-BC25F0D68DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90CAF717-85F9-4E94-B432-BC25F0D68DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90CAF717-85F9-4E94-B432-BC25F0D68DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
