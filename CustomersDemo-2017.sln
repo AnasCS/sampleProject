@@ -39,6 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersDemoTestHelpers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationInsightsInitializers", "src\ApplicationInsightsInitializers\ApplicationInsightsInitializers.csproj", "{7D6A5E69-187A-4FAA-997C-D6C1FA41FE32}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
