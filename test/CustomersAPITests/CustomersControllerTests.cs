@@ -87,7 +87,7 @@ namespace CustomersAPI.Controllers.Tests
                 var result = customersController.Get();
 
                 // assert
-                Assert.Equal(SampleListOfCustomerDataTransferObjects.Count(),3);
+                Assert.Equal(SampleListOfCustomerDataTransferObjects.Count(), result.Count());
                 CompareCustomerLists(SampleListOfCustomerDataTransferObjects, result);
                 VerifyOnlyLogMessage(testLogger, LoggingGetCustomersText);
             }
