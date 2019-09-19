@@ -36,10 +36,10 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Free Trial(d9e25a75-cb43-4a85-9fa7-698ec954af08)'
+    azureSubscription: 'anastestt - Azure'
     appType: 'webApp'
     WebAppName: 'anastestt'
     deployToSlotOrASE: true
     ResourceGroupName: 'anastestt-rg'
     SlotName: 'production'
-    packageForLinux: 
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
