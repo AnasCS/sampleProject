@@ -33,13 +33,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-- task: AzureRmWebAppDeployment@4
+
+
+- task: DotNetCoreCLI@2
   inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'anastestt - Azure'
-    appType: 'webApp'
-    WebAppName: 'anastestt'
-    deployToSlotOrASE: true
-    ResourceGroupName: 'anastestt-rg'
-    SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
